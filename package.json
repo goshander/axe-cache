@@ -1,0 +1,34 @@
+{
+  "name": "axe-cache",
+  "description": "axios cache module with sqlite and leveldb backend",
+  "author": {
+    "name": "Georgy Malkov",
+    "url": "https://github.com/goshander"
+  },
+  "main": "main.js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -e js --exec 'npm run test'",
+    "test": "tap ./test.spec.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cachios": "^4.0.0",
+    "level": "^7.0.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "nodemon": "^2.0.20",
+    "tap": "^16.3.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
