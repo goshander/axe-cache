@@ -1,6 +1,6 @@
 {
   "name": "axe-cache",
-  "description": "axios cache module with sqlite and leveldb backend",
+  "description": "axios cache module with sqlite or leveldb backend",
   "author": {
     "name": "Georgy Malkov",
     "url": "https://github.com/goshander"
